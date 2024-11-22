@@ -1,0 +1,60 @@
+@import '../../scss/colors.scss';
+
+.sidebar-container-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 15%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  background-color: $primary;
+  padding: 20px;
+  box-shadow: 4px 4px 10px 3px #0000003b;
+
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 0 20px;
+
+    button {
+      all: unset;
+      color: $foreground;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      height: 40px;
+
+      .linha {
+        border-radius: 20%;
+        width: 0px;
+        height: 0;
+        background-color: $foreground;
+        transition: .3s;
+      }
+
+      .selected {
+        width: 12px;
+        height: 100%;
+      }
+    }
+
+    button:hover {
+
+      .linha {
+        width: 12px;
+        height: 100%;
+        background-color: $secondary;
+      }
+    }
+
+  }
+}

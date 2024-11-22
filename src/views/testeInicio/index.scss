@@ -1,0 +1,45 @@
+// Estilos para o container de opções
+.opcoes-container {
+position: relative; // Para posicionar a tabela dentro desse container
+}
+
+.botao-opcoes {
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.tabela-opcoes {
+display: none; // Esconde a tabela de opções inicialmente
+position: absolute;
+top: 40px; // Ajuste conforme o seu layout
+left: 0;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 10px;
+width: 200px;
+border-radius: 4px;
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+    padding: 8px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #f1f1f1;
+    }
+    }
+}
+}
+
+// Quando a tabela estiver aberta, mostramos ela
+.tabela-opcoes.aberta {
+display: block;
+}

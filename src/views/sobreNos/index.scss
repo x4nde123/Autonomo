@@ -1,0 +1,41 @@
+.page-sobreNos{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6F6F6F;
+
+    .inicio-sobreNos{
+        width: 100%;
+        align-items: center;
+    }
+
+    .descricoes-sobreNos{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        margin-top: 80px;
+        margin-left: -250px;
+
+        h1{
+            z-index: 1;
+            margin: 0;
+            margin-top: 80px;
+            font: 400 43px 'Anton';
+            color: #FFFFFF;
+        }
+
+        p{
+            margin: 0;
+            max-width: 900px;
+            font: 400 22px 'kadwa';
+            color: #000000;
+            z-index: 1;
+        }
+    }
+
+    .compss{
+        margin-top: 50px;
+    }
+}

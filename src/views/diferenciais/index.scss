@@ -1,0 +1,37 @@
+.page-diferenciais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6F6F6F;
+
+    .container-diferenciais{
+        width: 100%;
+    }
+
+    .descricoes-diferenciais{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 120px;
+        margin-left: -500px;
+
+        h1{
+            margin: 0;
+            margin-top: 50px;
+            font: 400 55px 'Anton';
+        }
+
+        p{
+            margin: 0;
+            max-width: 727px;
+            font: 400 20px 'Chivo';
+            color: #FFFFFF;
+        }
+    }
+
+    .fale-conosco-diferenciais{
+        display: flex;
+        justify-content: center;
+    }
+
+}

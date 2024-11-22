@@ -1,0 +1,77 @@
+.page-blog{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6F6F6F;
+
+    .container-blog-inicio{
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-blog-costuras{
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 900px;
+        height: 1220px;
+        padding: 0px 40px 35px 40px;
+        gap: 0px 50px;
+        margin-top: 220px;
+
+        border-radius: 80px;
+        background-color: #D9D9D9;
+
+        .costuras-blog{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            img{
+                margin: 0;
+                width: 380px;
+                height: auto;
+                border-radius: 46px;
+                margin-top: 45px;
+            }
+
+            .comp-costuras{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h3{
+                    margin: 0;
+                    margin-top: 0px;
+                    max-width: 380px;
+
+                    font: 400 22px 'Anton';
+                    color: #6F6F6F;
+                }
+
+                .link-costuras{
+                    text-decoration: none;
+                }
+
+                p{
+                    font: 400 16px 'Chivo';
+                    max-width: 385px;
+                    margin: 0;
+                    color: #000;
+
+                    &:hover{
+                        color: #939;
+                    }
+                }
+
+            }
+        }
+
+        .historias{
+            margin-left: 0px;
+        }
+
+    }
+
+}

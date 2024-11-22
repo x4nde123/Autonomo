@@ -1,0 +1,72 @@
+.page-moletons{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6F6F6F;
+
+    .moletons-container{
+        width: 100%;
+    }
+
+    .moletons-estilos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .titulo-moletons-estilos{
+            text-align: center;
+            font: 400 55px 'Anton';
+            color: #000;
+            z-index: 1;
+            margin: 0;
+            margin-top: 150px;
+        }
+
+        .descricao-moletons-estilos{
+            max-width: 880px;
+            text-align: center;
+            margin-top: 0px;
+    
+            font: 400 22px 'Kadwa';
+            z-index: 1;
+            color: #FFFFFF;
+        }
+
+        .tipos-moletons{
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: column;
+
+            width: 840px;
+            margin: 0;
+            margin-top: 60px;
+
+            padding: 30px 0px 60px 0px;
+            
+            background-color: #D9D9D9;
+            border-radius: 80px;
+        }
+
+        .titulo-outros-moletons{
+            text-align: center;
+            font: 400 55px 'Anton';
+            color: #000;
+
+            margin: 0;
+            margin-top: 220px;
+            z-index: 1;
+        }
+
+        .descricao-outros-moletons{
+            text-align: center;
+    
+            font: 400 22px 'Kadwa';
+            z-index: 1;
+            color: #FFFFFF;
+        }
+    }
+    
+
+}

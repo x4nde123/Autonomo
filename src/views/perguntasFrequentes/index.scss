@@ -1,0 +1,122 @@
+.page-perguntas{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    background-color: #6F6F6F;
+
+    .borrao-silkstich{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+  
+        img{
+          position: absolute;
+          width: 100%;
+          z-index: -1;   
+        }
+    }
+
+    .header-perguntas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 80px;
+        height: 120px;
+        margin-top: 30px;
+
+        a{
+            text-decoration: none;
+        }
+        
+        .link-logo{
+            
+            
+            .logo2{
+            width: 246px;
+            margin-top: 40px;    
+            margin-right: -35px;
+            }
+        
+        }
+        
+        .h3-header{
+            display: flex;
+            gap: 60px;
+            
+            h3{
+                font: 400 20px 'Kadwa';
+                color: #000
+            }
+        }
+        
+        .contato{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            border-radius: 60px;
+            background-color: #000;
+        
+            width: 252px;
+            height: 72px;
+        
+            .link-contato{
+            display: flex;
+            gap: 8px;
+        
+            h2{
+                font: 400 17px 'Kadwa';
+                color: #fff;
+                text-align: center;
+                margin: 0;
+            }
+            
+            img{
+                width: 31.22px;
+            }
+            
+            }
+        
+        }
+        
+    }
+
+    .perguntas-frequentes{
+        text-align: center;
+        margin-top: 100px;;
+        font: 400 68px 'Anton'
+    }
+
+    .descricoes-perguntas{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        margin-left: -360px;
+
+        h1{
+            margin: 0;
+            margin-top: 80px;
+            font: 400 38px 'Anton';
+            color: #FFFFFF;
+        }
+
+        p{
+            margin: 0;
+            max-width: 1025px;
+            font: 400 24px 'kadwa';
+            color: #000000;
+        }
+    }
+
+    .compss{
+        margin-top: 180px;
+    }
+
+}

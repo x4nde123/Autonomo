@@ -1,0 +1,103 @@
+.page-historias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #6F6F6F;
+
+    .container-inicio-historias{
+        width: 100%;
+    }
+
+    .container-historias{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+
+        width: 720px;
+        height: auto;
+        padding: 50px;
+        gap: 40px;
+
+        margin-top: 220px;
+        border-radius: 75px;
+        background-color: #D9D9D9;
+
+        .descricoes-historias{
+            display: flex;
+            align-items: center;
+
+            width: 640px;
+            height: 280px;
+            padding: 0px 40px 0px 40px;
+            gap: 135px;
+
+            border-radius: 75px;
+            background-color: #6F6F6F;
+
+            .img-historias{
+                display: flex;
+
+                width: 200px;
+                height: 185px;
+
+                border-radius: 50px;
+            }
+
+            .descricoes{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                h1{
+                    margin: 0;
+                    font: 400 25px 'Anton';
+                }
+
+                p{
+                    margin: 0;
+                    margin-top: 7px;
+                    max-width: 300px;
+                    font: 400 15px 'Chivo';
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .triangulo-historias{
+        display: flex;
+        position: relative;
+
+        img{
+            position: absolute;
+            width: 1420px;
+            margin-left: -712px;
+        }
+    }
+
+    .h1-historias{
+        margin-top: 250px;
+        text-align: center;
+        font: 400 42px 'Anton';
+        color: #fff;
+    }
+
+    .container-historias-dois{
+        width: 850px;
+        margin-top: 10px;
+        background-color: #D9D9D9;
+        border-radius: 58px;
+        box-shadow: 4px 4px 7px 0px;
+        z-index: 1;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .rodape-historias{
+        width: 100%;
+        margin-top: 354px;
+    }
+}

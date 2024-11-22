@@ -1,0 +1,34 @@
+.page-destaques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #6F6F6F;
+
+    .container-destaques{
+        width: 100%;
+    }
+
+    .descricao-destaques{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        margin-top: 180px;
+        margin-left: -180px;
+
+        h1{
+            margin: 0;
+            margin-top: 50px;
+            font: 400 60px 'Anton';
+        }
+
+        p{
+            margin: 0;
+            max-width: 1025px;
+            font: 400 23px 'kadwa';
+            color: #FFFFFF;
+        }
+    }
+
+}

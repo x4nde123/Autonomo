@@ -1,0 +1,131 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    
+    padding: 20px 0px 0px 0px;
+    margin: 0;
+
+    margin-top: 140px;
+    background-color: #B5B5B5;
+
+    .Link-rodape{
+      text-decoration: none;
+    }
+
+    .colunas{
+      display: flex;
+      margin-top: 0px;
+      
+      .coluna1-rodape{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 16px;
+        
+        .logo-rodape{
+          margin: 0;
+          width: 243px;
+        }
+
+        h1{
+          font: 400 25px 'Anton';
+        }
+
+        .redes-sociais{
+          display: flex;
+          align-items: center;
+          gap: 13px;
+
+          .redesSociais-rodape{
+            width: 30px;
+          }
+
+          .insta-rodape{
+            width: 38px;
+          }
+
+        }
+        
+      }
+
+      .coluna2-rodape{
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 130px;
+        gap: 20px;
+
+        .Link-rodape{
+          h1{
+            margin: 0;
+            font: 400 25px 'Anton';
+            color: #000000;
+          }
+          
+
+          h2{
+            margin: 0;
+            font: 400 20px 'Kadwa';
+            color: #000000;
+          }
+
+        }
+
+      }
+
+      .coluna3-rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 120px;
+        gap: 20px;
+        
+        h1{
+          margin: 0;
+          font: 400 25px 'Anton';
+        }
+
+        .pagamentos{
+          display: flex;
+          gap: 20px;
+
+          .img-pagamentos{
+            width: 64px;
+            height: 38px;
+          }
+
+          .pix{
+            width: 38px;
+            height: 38px;
+          }
+
+        }
+
+        .entre-em-contato-rodape{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 25px;
+
+          .button-rodape{
+            width: 280px;
+            height: 58px;
+
+            border-radius: 76px;
+            background-color: #000000;
+            font: 400 19px 'Arbutus';
+            color: #FFFFFF;
+          }
+
+        }
+
+      }
+
+    }
+    
+  }

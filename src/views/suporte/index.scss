@@ -1,0 +1,172 @@
+.page-suporte{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    
+    width: 100%;
+    z-index: 1;
+    background-color: #6F6F6F;
+
+    .borrao-silkstich{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+  
+        img{
+          position: absolute;
+          width: 100%;
+          z-index: -1;   
+        }
+    }
+  
+      .header-suporte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        height: 120px;
+        margin-top: 30px;
+  
+        a{
+          text-decoration: none;
+        }
+      
+        .link-logo{
+
+          .logo2{
+            width: 246px;
+            margin-top: 40px;
+            margin-right: -35px;
+          }
+        
+        }
+      
+        .h3-header{
+          display: flex;
+          gap: 60px;
+          
+          h3{
+              font: 400 20px 'Kadwa';
+              color: #000
+          }
+        }
+      
+        .contato{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      
+          border-radius: 60px;
+          border: none;
+          background-color: #000;
+      
+          width: 252px;
+          height: 72px;
+      
+          .link-contato{
+            display: flex;
+            gap: 8px;
+      
+            h2{
+              font: 400 15px 'Kadwa';
+              color: #fff;
+              text-align: center;
+              margin: 0;
+            }
+            
+            img{
+              width: 25px;
+              height: 25px;
+            }
+            
+          }
+      
+        }
+
+        .contato:hover{
+          color: #000;
+          border: 2px solid #fff;
+
+        }
+        .contato:active{
+          width: 250px;
+          height: 70px;
+          margin-left: 2px;
+        }
+    }
+
+    .h1-suporte{
+        text-align: center;
+        font: 400 72px 'Anton';
+        margin-top: 100px;
+    }
+
+    .container-suporte{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+
+        .suporte{
+            display: flex;
+            flex-direction: column;
+
+            width: 440px;
+            height: 250px;
+
+            background-color: #D9D9D9;
+            border-radius: 55px;
+            margin-top: 20px;
+
+            h1{
+                text-align: center;
+                font: 400 25px 'Anton';
+                margin: 15px 0 0 0;
+            }
+
+            .barra-suporte{
+                width: 100%;
+                border: 1px solid #6F6F6F;
+            }
+
+            .descricao-suporte{
+              display: flex;
+              margin-left: 50px;
+
+              img{
+                width: 20px;
+                height: 20px;
+                margin-top: 0px;
+                margin-right: 5px;
+              }
+  
+              P{
+                font: 400 16px 'Chivo';
+                color: #000;
+                max-width: 250px;
+                margin: 0 0 20px 0;
+              }
+
+              p:hover{
+                color: #939;
+              }
+
+              .link-suporte{
+                text-decoration: none;
+              }
+            }
+
+            .descricaoUm{
+                margin: 20px 0px 0px 50px;
+            }
+        }
+
+    }
+
+    .fale-suporte{
+        margin-top: 50px;
+    }
+
+}

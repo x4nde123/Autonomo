@@ -1,0 +1,55 @@
+.fale-conosco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 780px;
+    height: 500px;
+    padding: 30px 40px 0px 40px;
+    margin-top: 150px;
+    gap: 15px;
+    
+    border-radius: 75px;
+    background-color: #000;
+
+    .h1-fale-conosco{
+        margin: 0;
+        font: 400 55px 'Anton';
+        color: #FFFFFF;
+    }
+
+    p{
+        margin: 0;
+        font: 400 22px 'Chivo';
+        color: #FFFFFF;
+    }
+
+    .fale-conosco-contato{
+        display: flex;
+
+        .contato-diferenciais{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 350px;
+            height: 80px;
+            margin-top: 20px;
+
+            border-radius: 58px;
+            background-color: #6F6F6F;
+
+            h1{
+                font: 400 30px 'Arbutus';
+                color: #FFFFFF;
+            }
+        }
+
+        img{
+            width: 200px;
+            margin-top: -45px;
+            margin-left: 125px;
+            rotate: 10deg;
+        }
+    }
+}

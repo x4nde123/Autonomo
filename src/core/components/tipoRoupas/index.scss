@@ -1,0 +1,63 @@
+.roupas{
+    margin-top: 60px;
+    padding: 55px;
+    background-color: #000000;
+    border-radius: 100px;
+    
+    .tipos-roupas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 50px;
+        margin: 0;
+        
+        background-color: #88888856;
+        box-shadow: 4px 0px 7px 5px #d9d9d933;
+        border-radius: 80px;
+        
+        .ellipses{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            transition: 0.8s;
+
+            .tipo-roupa{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img{
+                    width: 230px;
+                    height: auto;
+                }
+
+                h2{
+                    color: #ffff;
+                    font: 400 24px 'Chivo';
+                    margin-top: 20px;    
+                }
+
+                a{
+                    text-decoration: none;
+                }
+
+                .tipo1{
+                 margin-left: -15px;   
+                }
+
+                .tipo2{
+                 margin-left: -15px;   
+                }
+
+                .tipo3{
+                 margin-left: -15px;   
+                }
+
+            }
+            
+        }
+    
+  }
+
+}
