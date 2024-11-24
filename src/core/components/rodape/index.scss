@@ -106,21 +106,34 @@
 
         }
 
-        .entre-em-contato-rodape{
+        .contato{
           display: flex;
           justify-content: center;
           align-items: center;
           margin-top: 25px;
 
           .button-rodape{
+            display:flex;
             width: 280px;
             height: 58px;
+            align-items:center;
+            justify-content: center;
 
             border-radius: 76px;
             background-color: #000000;
             font: 400 19px 'Arbutus';
             color: #FFFFFF;
           }
+          .button-contato:hover{
+            box-shadow: 1px 1px 5px 2px #fff;
+          }
+        
+          .button-contato:active{
+            width: 240px;
+            height: 63px;
+            margin-left: 2px;
+          }
+        
 
         }
 

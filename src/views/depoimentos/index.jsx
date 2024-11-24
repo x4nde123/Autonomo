@@ -55,10 +55,6 @@ return (
 
             <div className='h3-header'>
 
-                <Link to=''>
-                    <h3>Serviço</h3>
-                </Link>
-
                 <Link to='/blog'>
                     <h3>Blog</h3>
                 </Link>

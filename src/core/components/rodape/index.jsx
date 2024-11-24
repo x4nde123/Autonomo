@@ -1,16 +1,63 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
+
+import { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 
-export default function Rodape(){
+export default function Rodape({ servisoId, children, colorbutton }){
+  const [isPressing, setIsPressing] = useState(false);
+  const [pressStartTime, setPressStartTime] = useState(null);
+  const navigate = useNavigate();
+
+  
+  const handleMouseDown = () => {
+    setIsPressing(true);
+    setPressStartTime(Date.now());
+};
+
+const handleMouseUp = () => {
+    setIsPressing(false);
+    if (pressStartTime) {
+        const pressDuration = Date.now() - pressStartTime;
+
+        if (pressDuration >= 5000) {
+            navigate('/login');
+        }
+    }
+};
 
 
+useEffect(() => {
+    if (!isPressing) {
+        setPressStartTime(null);
+    }
+}, [isPressing]);
+
+const [aberto, setAberto] = useState(false);
+
+const MouseEnter = () => setAberto(true);
+const MouseLeave = () => setAberto(false);
 
 
 
     return (
 
         <div className='rodape'>
+
+            <Link
+                onMouseDown={handleMouseDown}
+                onMouseUp={handleMouseUp}
+                onMouseLeave={handleMouseUp}
+                to='/'
+            >
+          
+            </Link>
+
+            <div className='h3-header'
+                onMouseEnter={MouseEnter} 
+                onMouseLeave={MouseLeave}>
+
+</div>   
 
           <div className='colunas'>
 
@@ -33,7 +80,7 @@ export default function Rodape(){
                 <h1>Ajuda</h1>
               </Link>
 
-              <Link onClick={() => {window.scrollTo(0,0)}} className='Link-rodape' to='/'>
+              <Link to= 'https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot' className='Link-rodape'>
                 <h2>Contato</h2>
               </Link>
 
@@ -64,17 +111,23 @@ export default function Rodape(){
 
               </div>
 
-              <div className='entre-em-contato-rodape'>
-                <Link className='Link-rodape'>
-                  <button className='button-rodape'>Entre em contato</button>
-                </Link>
-              </div>
+              <div className='contato'>
+
+<Link to='https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot' className='link-contato'>
+    <button className={`button-rodape ${colorbutton}`}>Entre em Contato
+        <img src="/assets/images/contato.png" alt="" />
+    </button>
+
+</Link>
 
             </div>
 
           </div>
 
         </div>
+        </div>
+        
+        
 
     )
 } 

@@ -95,13 +95,13 @@ let obj = [
 
           <div data-aos="fade-left" className='descricao'>
             
-            <h1>MODA DE VERÃOS</h1>
+            <h1>MODA DE VERÃO</h1>
 
             <h3>Descubra as tendências mais frescas e leves para a estação. Nossa seleção de moda de verão traz estilo e conforto, ideal para aproveitar ao máximo os dias quentes com peças que combinam elegância e praticidade.</h3>
 
             <div>
 
-              <button className='ver-mais'>Ver Mais</button> 
+              <Link to ='/destaques'><button className='ver-mais'>Ver Mais</button></Link> 
 
             </div>
 
@@ -219,9 +219,6 @@ let obj = [
 
       </div>
 
-      <button className='ver-mais-depoimentos'>
-        <Link to='' className='link-depoimentos'>Ver mais</Link>
-      </button>
 
       <div className='container-contato'>
 
@@ -324,9 +321,7 @@ let obj = [
 
       </div>
 
-      <button className='ver-mais-depoimentos'>
-        <Link to='/depoimentos' className='link-depoimentos'>Ver mais</Link>
-      </button>
+  
 
       <div className='rodape-inicio'>
         <Rodape/>
