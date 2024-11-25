@@ -1,4 +1,5 @@
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,7 +19,7 @@ export default function FaleConosco(){
             <div className='fale-conosco-contato'>
 
                 <div className='contato-diferenciais'>
-                    <h1>Entre em contato</h1>
+                    <Link to = 'https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot'><h1>Entre em contato</h1></Link>
                 </div>
 
                 <img src="/assets/images/img_telefone.png" alt="" />

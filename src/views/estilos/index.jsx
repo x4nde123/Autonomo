@@ -71,7 +71,7 @@ export default function Estilos(){
                     titulo={item.titulo}
                     descricao={item.descricao}
                     nomeLink={item.nomeLink}
-                    link={item.link}
+                    link={item.link = 'https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot'}
                 />
             )}
 

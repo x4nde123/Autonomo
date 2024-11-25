@@ -13,7 +13,7 @@ export default function Moletons(){
             imagem: '/assets/images/img_moletons1.png',
             titulo: 'MOLETONS COM BORDADO',
             descricao: 'Moletons com bordados detalhados para um toque personalizado e exclusivo. Ideal para quem gosta de detalhes artesanais e únicos.',
-            link: '/',
+            link: '',
             caminho: 'Faça seu pedido'
         },
 
@@ -21,7 +21,7 @@ export default function Moletons(){
             imagem: '/assets/images/img_moletons2.png',
             titulo: 'MOLETONS COM ZIPER',
             descricao: 'Moletons com fechamento em zíper, oferecendo praticidade e ajuste ajustável. Ideal para sobreposições e facilidade ao vestir.',
-            link: '/',
+            link: '',
             caminho: 'Faça seu pedido'
         },
         
@@ -29,7 +29,7 @@ export default function Moletons(){
             imagem: '/assets/images/img_moletons3.png',
             titulo: 'MOLETONS COM CAPUZ REMOVÍVEL',
             descricao: 'Moletons versáteis com capuz removível para ajustar o estilo e o conforto conforme necessário. Ideal para mudanças de clima.',
-            link: '/',
+            link: '',
             caminho: 'Faça seu pedido'
         },
 
@@ -37,7 +37,7 @@ export default function Moletons(){
             imagem: '/assets/images/img_moletons4.png',
             titulo: 'MOLETONS DE VELUDO',
             descricao: 'Moletons feitos com tecido de veludo para um toque luxuoso e suave. Ideais para um look sofisticado e confortável.',
-            link: '/',
+            link: '',
             caminho: 'Faça seu pedido'
         }
     ]
@@ -78,7 +78,7 @@ export default function Moletons(){
                             imagem={comp.imagem}
                             titulo={comp.titulo}
                             descricao={comp.descricao}
-                            link={comp.link}
+                            link={comp.link = 'https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot'} 
                             caminho={comp.caminho}
                         />
                     )}

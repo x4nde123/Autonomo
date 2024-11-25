@@ -75,7 +75,7 @@ export default function Calcas(){
                             imagem={comp.imagem}
                             titulo={comp.titulo}
                             descricao={comp.descricao}
-                            link={comp.link}
+                            link={comp.link = 'https://wa.me/5511984430465?text=oi.gostaria de falar com nosso bot'} 
                             caminho={comp.caminho}
                         />
                     )}
