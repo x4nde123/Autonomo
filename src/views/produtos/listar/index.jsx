@@ -23,10 +23,17 @@ const ListarProdutos = () => {
   const produtosComImagem = useMemo(() => {
     return produtosData?.map(item => ({
       ...item,
-      valor: priceFormatter(item.valor),
-      categoria: findById(categoriaData, item.id_categoria)?.nome,
-      image: item.image ? <img style={{ width: 50, height: 50, objectFit: 'contain' }} src={getBaseUrl(item.image)} /> : <img style={{ width: 50, height: 50, objectFit: 'contain' }} src="/icons/logo.png"  alt={item.nome || "Imagem do produto"} />
-     
+      valor: priceFormatter(item.valor || 0),
+      categoria: findById(categoriaData, item.id_categoria)?.nome || "Categoria Não encontrada",
+      image: item.image ? 
+      <img
+      style={{ width: 50, height: 50, objectFit: "contain" }}
+      src={getBaseUrl(item.image)}
+      alt={item.nome || "Imagem do produto"}
+    />
+    : (
+      "Sem imagem"
+    ),
     }))
   }, [produtosData, categoriaData])
 
