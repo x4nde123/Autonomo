@@ -21,7 +21,7 @@ const ListarClientes = () => {
         {accessor: 'nome', label: 'Nome'},
         {accessor: 'numero', label: 'Telefone'},
         {accessor: 'email', label: 'E-mail'},
-        {accessor: 'UltimaCompra', label: 'Última compra'},
+       
     ]
 
     return (

@@ -1,4 +1,4 @@
-import { data } from "framer-motion/client"
+import { data, label, mask } from "framer-motion/client"
 import Form from "../../../core/components/form"
 import { api } from "../../../services/axios-setup"
 import { toast } from "react-toastify"
@@ -8,13 +8,16 @@ const CadastroClientes = () => {
     const campos = [
         {name: 'nome', label: 'Nome'},
         {name: 'email', label: 'E-mail'},
-        {name: 'numero', label: 'Telefone', mask: '(99) 99999-9999'}
+        {name: 'numero', label: 'Telefone', mask: '(99) 99999-9999'},
+        
+
     ]
 
     const initialData = {
         nome: '',
         email: '',
-        numero: ''
+        numero: '',
+       
     }
 
     const cadastrar = async (data) =>{

@@ -21,6 +21,7 @@ const ListarProdutos = () => {
   const navigate = useNavigate()
 
   const produtosComImagem = useMemo(() => {
+    if (!Array.isArray(produtosData) || !Array.isArray(categoriaData)) return [];
     return produtosData?.map(item => ({
       ...item,
       valor: priceFormatter(item.valor || 0),
